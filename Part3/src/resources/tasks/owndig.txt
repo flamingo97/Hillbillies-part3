@@ -1,0 +1,10 @@
+name: "owndig"
+priority : 8
+activities:
+	if (is_solid (selected)) then
+		print(position_of(this));
+		moveTo(next_to(selected));
+		print(position_of(this));
+		work selected;
+		print(next_to(this));
+	fi

@@ -1,0 +1,7 @@
+name: "ownsimple"
+priority: 16
+activities:
+	w := workshop;
+	print(w);
+	break;
+	w := boulder;
